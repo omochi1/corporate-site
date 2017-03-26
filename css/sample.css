@@ -10,6 +10,15 @@ header #header_in {
   padding-top: 10px;
   padding-bottom: 4px;
 }
+
+@media (min-width: 550px)
+{
+header #header_in {
+    padding: 15px 0 10px 0;
+}
+}
+
+
 @media (max-width: 550px) {
   header .logo {
     width: 190px;
@@ -465,4 +474,58 @@ footer .foot_navi {
 #contents #sidebar .pc_sidemenu {
     display: none;
 }
+}
+
+
+
+
+@media (min-width: 550px)
+{
+#sub_cover {
+    padding: 80px 0;
+}
+}
+
+#contents #main th {
+    padding-right: 20px;
+}
+#contents #main th, #contents #main td {
+    padding: 20px 0;
+    color: #626262;
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+@media (min-width: 550px)
+{
+#contents {
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+}
+
+@media (min-width: 550px)
+{
+#service_area .columns .service_title {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+}
+
+#contents #main th {
+    padding-right: 20px;
+}
+
+@media (min-width: 550px)
+{
+#contents #main {
+    padding-right: 20px;
+}
+}
+
+
+
+#contents #sidebar .pc_sidemenu li a {
+    color: #339fd1;
+    text-decoration: none;
 }
